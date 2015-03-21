@@ -1,3 +1,4 @@
+>git init ==> Initializing following path as git repository
 > git --version => git version
 
 > git config --global user.name "Abc tesr"
@@ -25,3 +26,11 @@ Login as git user
 >git diff ==> to see what are the changes we made but yet not saved also the differences between our working project and git repository
 -If no changes were made, blank will be shown. It's called as staging.
 
+>git diff --staged=> compares staging area in repository and current directory
+
+>git rm abc.txt => removes perticular file from working directory
+
+>git mv abc.txt changed.txt => Renames the following file name to next one
+
+
+>git commit -am "commit all changes without doing git add . for files"  => Shorcut to commit all files
