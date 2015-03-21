@@ -10,6 +10,8 @@ Login as git user
 
 >git add . => Save all your chnages to git
 
+>git add abc.txt==> Save changes made in shown file only
+
 >git commit -m "this is the messAGE during commit"
 
 >git log => to see commit messages during the time
@@ -18,4 +20,4 @@ Login as git user
 
 >git status ==> look for any changes in any file/directory
 
->git status --pretty=oneline => status of previous commits in oneline
+>git log --pretty=oneline => status of previous commits in oneline
