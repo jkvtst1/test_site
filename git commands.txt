@@ -34,3 +34,18 @@ Login as git user
 
 
 >git commit -am "commit all changes without doing git add . for files"  => Shorcut to commit all files
+
+>git checkout -- abc.txt => undo previous changes which are not made as commit
+
+>git reset HEAD abc.txt ==> to unstage the staged file (i.e done by git add .=> it undos that )
+
+>git checkout 08ubi -- filename.txt ==> 08ubi is the commit number for the previous version and this command is used to bring back previous version file
+
+============
+Pushing files to gitHub
+===========
+>git remote nickNameofLink https://github.com/myproject ==> Connects to the online repository
+
+> git remote ==> get the name of Remote link
+
+>git push -u nickNameofLink => Push local files to online repository
