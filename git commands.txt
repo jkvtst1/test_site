@@ -1,0 +1,21 @@
+> git --version => git version
+
+> git config --global user.name "Abc tesr"
+> git config --global user.emal "Abc@tesr.com"
+Login as git user 
+
+>pwd => to see current home path
+
+>cd ~ => changes directory to home path
+
+>git add . => Save all your chnages to git
+
+>git commit -m "this is the messAGE during commit"
+
+>git log => to see commit messages during the time
+
+>git log --author="personname" => commits from the following person
+
+>git status ==> look for any changes in any file/directory
+
+>git status --pretty=oneline => status of previous commits in oneline
