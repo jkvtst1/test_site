@@ -18,6 +18,10 @@ Login as git user
 
 >git log --author="personname" => commits from the following person
 
+>git log --pretty=oneline => status of previous commits in oneline
+
 >git status ==> look for any changes in any file/directory
 
->git log --pretty=oneline => status of previous commits in oneline
+>git diff ==> to see what are the changes we made but yet not saved also the differences between our working project and git repository
+-If no changes were made, blank will be shown. It's called as staging.
+
