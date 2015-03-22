@@ -44,7 +44,7 @@ Login as git user
 ============
 Pushing files to gitHub
 ===========
->git remote nickNameofLink https://github.com/myproject ==> Connects to the online repository
+>git remote add nickNameofLink https://github.com/myproject ==> Connects to the online repository
 
 > git remote ==> get the name of Remote link
 
