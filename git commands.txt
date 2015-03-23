@@ -49,3 +49,7 @@ Pushing files to gitHub
 > git remote ==> get the name of Remote link
 
 >git push -u nickNameofLink => Push local files to online repository
+========
+cloning projects to local machine
+==========
+>git clone https://github.com/lssmessy/test_site.git local_name ==> Downloads all the projects files on local machine 
